@@ -13,8 +13,8 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(dialogue)
-  if dialogue == "I LOVE YOU GRANDMA!" puts "I LOVE YOU TOO PUMPKIN!"
-  elsif dialogue.upcase == dialogue puts "NO, NOT SINCE 1938!"
+  if dialogue == "I LOVE YOU GRANDMA!" then puts "I LOVE YOU TOO PUMPKIN!"
+  elsif dialogue.upcase == dialogue then puts "NO, NOT SINCE 1938!"
   else puts "HUH?! SPEAK UP, SONNY!"
   end
 end
